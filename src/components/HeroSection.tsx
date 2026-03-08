@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute bottom-20 right-8 w-8 h-8 bg-primary/20 rounded-full animate-float animation-delay-400" />
       <div className="absolute top-40 right-20 w-6 h-6 bg-orange/20 rounded-full animate-float animation-delay-200" />
 
-      <div className="container py-12 md:py-20">
+      <main className="container py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Text */}
           <div className="animate-fade-up">
@@ -92,7 +92,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </section>
   );
 };
