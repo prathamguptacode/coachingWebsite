@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { LibraryBig } from 'lucide-react';
 import { PiBooksFill } from 'react-icons/pi';
 
 const Navbar = () => {

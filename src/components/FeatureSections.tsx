@@ -1,7 +1,3 @@
-import coachingOnline from '@/assets/coaching-online.jpg';
-import coachingQualified from '@/assets/coaching-qualified.jpg';
-import { Facebook, Twitter, Instagram } from 'lucide-react';
-
 const FeatureSections = () => {
   return (
     <div className="space-y-0" id="teachers">
@@ -13,7 +9,7 @@ const FeatureSections = () => {
               <div className="absolute -top-3 -left-3 w-16 h-16 bg-yellow-accent/30 rounded-2xl -z-10" />
               <div className="absolute -bottom-3 -right-3 w-20 h-20 bg-primary/10 rounded-full -z-10" />
               <img
-                src={coachingOnline}
+                src="./duck.jpeg"
                 alt="Personalized online coaching"
                 className="w-full rounded-2xl object-cover aspect-[4/3] shadow-lg"
                 loading="lazy"
@@ -63,7 +59,7 @@ const FeatureSections = () => {
             <div className="order-1 md:order-2 relative">
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-orange/10 rounded-full -z-10" />
               <img
-                src={coachingQualified}
+                src="./duck.jpeg"
                 alt="Qualified professional coaches"
                 className="w-full rounded-2xl object-cover aspect-[4/3] shadow-lg"
                 loading="lazy"

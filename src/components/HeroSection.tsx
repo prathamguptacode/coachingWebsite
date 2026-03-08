@@ -1,5 +1,4 @@
-import heroImage from '@/assets/hero-coach.jpg';
-import { Play } from 'lucide-react';
+
 
 const HeroSection = () => {
   return (
@@ -44,7 +43,7 @@ const HeroSection = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=917985236926&text=Hello%2C%20I%20found%20your%20website%20and%20would%20like%20to%20know%20about%20tuition%20classes"
                 className="bg-secondary text-secondary-foreground font-bold px-7 py-3.5 rounded-lg hover:bg-secondary/90 transition-colors text-sm shadow-lg shadow-secondary/30 "
-                target='_blank'
+                target="_blank"
               >
                 Get started
               </a>
@@ -57,7 +56,7 @@ const HeroSection = () => {
               <div className="space-y-3">
                 <div className="rounded-2xl overflow-hidden bg-blue-light aspect-square">
                   <img
-                    src={heroImage}
+                    src="./duck.jpeg"
                     alt="Professional life coach"
                     className="w-full h-full object-cover"
                     loading="eager"
@@ -65,7 +64,7 @@ const HeroSection = () => {
                 </div>
                 <div className="rounded-2xl overflow-hidden bg-orange-light aspect-[4/3]">
                   <img
-                    src={heroImage}
+                    src="./duck.jpeg"
                     alt="Coaching session"
                     className="w-full h-full object-cover object-top"
                     loading="eager"
@@ -75,7 +74,7 @@ const HeroSection = () => {
               <div className="space-y-3 pt-6">
                 <div className="rounded-2xl overflow-hidden bg-pink-light aspect-[4/3]">
                   <img
-                    src={heroImage}
+                    src="./duck.jpeg"
                     alt="Coach portrait"
                     className="w-full h-full object-cover"
                     loading="eager"
@@ -83,7 +82,7 @@ const HeroSection = () => {
                 </div>
                 <div className="rounded-2xl overflow-hidden bg-blue-light aspect-square">
                   <img
-                    src={heroImage}
+                    src="./duck.jpeg"
                     alt="Group coaching"
                     className="w-full h-full object-cover scale-110"
                     loading="eager"
