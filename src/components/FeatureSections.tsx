@@ -17,7 +17,7 @@ const FeatureSections = () => {
             </div>
             <div>
               <p className="text-xs font-bold tracking-widest uppercase text-orange mb-3">
-                Focused on Concept Clarity
+                Dr Sandhya Sarin
               </p>
               <h2 className="text-2xl md:text-3xl font-extrabold text-foreground leading-tight">
                 Guiding Students Toward Academic Confidence
@@ -42,7 +42,7 @@ const FeatureSections = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="order-2 md:order-1">
               <p className="text-xs font-bold tracking-widest uppercase text-orange mb-3">
-                Supportive and Structured Teaching
+                Mr. Kushwaha Singh
               </p>
               <h2 className="text-2xl md:text-3xl font-extrabold text-foreground leading-tight">
                 Helping Students Learn With Confidence
