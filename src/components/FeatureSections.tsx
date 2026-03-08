@@ -1,6 +1,6 @@
-import coachingOnline from "@/assets/coaching-online.jpg";
-import coachingQualified from "@/assets/coaching-qualified.jpg";
-import { Facebook, Twitter, Instagram } from "lucide-react";
+import coachingOnline from '@/assets/coaching-online.jpg';
+import coachingQualified from '@/assets/coaching-qualified.jpg';
+import { Facebook, Twitter, Instagram } from 'lucide-react';
 
 const FeatureSections = () => {
   return (
@@ -21,13 +21,19 @@ const FeatureSections = () => {
             </div>
             <div>
               <p className="text-xs font-bold tracking-widest uppercase text-orange mb-3">
-                Customize With Your Schedule
+                Focused on Concept Clarity
               </p>
               <h2 className="text-2xl md:text-3xl font-extrabold text-foreground leading-tight">
-                Personalized Professional Online Coach on Your Schedule
+                Guiding Students Toward Academic Confidence
               </h2>
               <p className="mt-4 text-sm md:text-base text-muted-foreground leading-relaxed">
-                Our scheduling system allows you to select based on your free time. Keep track of your progress and coaching schedules, and never miss your sessions. The best online coaching scheduling system with easy accessibility.
+                I focus on helping students truly understand the concepts rather
+                than simply memorizing answers. With clear explanations,
+                practical examples, and regular practice, students develop
+                stronger problem-solving skills and confidence in their studies.
+                My goal is to make learning structured, engaging, and supportive
+                so that every student can steadily improve their academic
+                performance.
               </p>
             </div>
           </div>
@@ -40,13 +46,18 @@ const FeatureSections = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="order-2 md:order-1">
               <p className="text-xs font-bold tracking-widest uppercase text-orange mb-3">
-                Customize With Your Schedule
+                Supportive and Structured Teaching
               </p>
               <h2 className="text-2xl md:text-3xl font-extrabold text-foreground leading-tight">
-                Talented and Qualified Coaches to Serve You for Help
+                Helping Students Learn With Confidence
               </h2>
               <p className="mt-4 text-sm md:text-base text-muted-foreground leading-relaxed">
-                Our coaching team allows you to select based on your free time. Keep track of your progress and coaching schedules, and never miss your sessions. The best online coaching system with easy accessibility.
+                My teaching approach combines clear instruction with regular
+                practice and feedback. I work closely with students to identify
+                areas that need improvement and provide guidance to strengthen
+                their understanding. By maintaining a positive and disciplined
+                learning environment, I help students stay motivated and perform
+                better in their exams.
               </p>
             </div>
             <div className="order-1 md:order-2 relative">
